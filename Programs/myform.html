@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>My First Form</title>
+    </head>
+    <body>
+        <h2>Fill the below Form</h2>
+        <form>
+            <label for="firstname">First Name:</label>
+            <input type="text" name="firstname">
+            <!-- <br><br> -->
+            <label>Last Name:</label>
+            <input type="text">
+            <br><br>
+            <label for="enroll">Enrolled in Ednue ?</label>
+            <input type="radio" name="enroll" >
+            <label>Yes</label>
+            <input type="radio" name="enroll">
+            <label>No</label>
+            <br><br>
+            <label>Enter your email</label>
+            <input type="email">
+            <br>
+            <br>
+            <label for="courses">Course Want to Enroll: </label>
+            <select name="courses">
+                <option>Full Stack Development</option>
+                <option>Software Testing</option>
+                <option>DevOps</option>
+            </select>
+            <br>
+            <br>
+            <label>Known Languages:</label><br><br>
+            <input type="checkbox" id="tamil" name="languages" value="Tamil">
+            <label for="tamil">Tamil</label><br>
+            
+            <input type="checkbox" id="english" name="languages" value="English">
+            <label for="english">English</label><br>
+            
+            <input type="checkbox" id="hindi" name="languages" value="Hindi">
+            <label for="hindi">Hindi</label><br>
+            
+            <input type="checkbox" id="telugu" name="languages" value="Telugu">
+            <label for="telugu">Telugu</label><br><br>
+            <label for="post">Click Here to Submit</label>
+            <button type="submit" name="post">Submit</button>
+        </form>
+    </body>
+</html>
