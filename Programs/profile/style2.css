@@ -12,6 +12,26 @@
     color: white;
     padding: 10px;
   }
+
+  header nav {
+    background-color: #4CAF50;
+    color: white;
+    position: sticky;
+    text-align: left;
+    display: flexbox;
+  }
+
+  header nav a {
+    color: white;
+    text-decoration: none;
+    font-family: 'Calibri';
+    font-style: italic;
+    margin: 10px;
+    background-color: orange;
+    border: 2px solid orange;
+    border-radius: 10px;
+    padding: 5px;
+  }
   
   /* Profile Section Styling */
   #profile {
@@ -57,4 +77,5 @@
     margin-top: 20px;
     color: #777;
   }
+  
   
