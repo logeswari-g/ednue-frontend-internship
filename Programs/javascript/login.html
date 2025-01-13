@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Login Page</title>
+        <script src="myfirst.js"></script>
+    </head>
+    <body onload="welcome()">
+        <div class="login-container">
+            <h1>Welcome, please login</h1>
+            <form onsubmit="return validateEmail() && validatePass() && thanks()">
+                <label for="email">Enter email:</label>
+                <input type="text" id="email" name="email" placeholder="Enter email">
+                <br><br>
+                <label for="password">Enter password:</label>
+                <input type="password" id="password" name="password" placeholder="Enter password">
+                <br><br>
+                <button type="submit">Login</button>
+            </form>
+        </div>
+    </body>
+</html>
