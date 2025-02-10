@@ -44,7 +44,7 @@ div {
      left: 100px;
    }
    ```
-4. **Fixed**: Positioned relative to the viewport; doesn’t move when scrolling.
+4. **Fixed**: Stays fixed in place (even on scroll).
    ```css
    div {
      position: fixed;
