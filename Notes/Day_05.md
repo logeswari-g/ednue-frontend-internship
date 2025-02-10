@@ -9,7 +9,7 @@ The CSS Box Model treats every HTML element as a rectangular box with the follow
 3. **Border**: Edge around the padding and content.
 4. **Margin**: Space outside the border (separates elements).
 
-![image](https://github.com/user-attachments/assets/3c87c761-f535-4048-881e-149d343afa93)
+![image](https://github.com/user-attachments/assets/f8d0be13-efc4-4236-ac80-84513d54970d)
 
 ### CSS Example:
 ```css
