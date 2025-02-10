@@ -4,10 +4,20 @@
 ## CSS Box Model
 The CSS Box Model treats every HTML element as a rectangular box with the following components:
 
-1. **Content**: The actual content inside the element.
+1. **Content**: The actual content inside the element (text, image, etc.).
 2. **Padding**: Space between the content and the border.
-3. **Border**: A line surrounding the padding.
-4. **Margin**: Space between the border and adjacent elements.
+3. **Border**: Edge around the padding and content.
+4. **Margin**: Space outside the border (separates elements).
+
+   +-----------------------------+   <-- Margin
+|                             |
+|  +-----------------------+  |   <-- Border
+|  |   +---------------+   |  |   <-- Padding
+|  |   |  Content      |   |  |
+|  |   +---------------+   |  |
+|  +-----------------------+  |
+|                             |
++-----------------------------+
 
 ### CSS Example:
 ```css
