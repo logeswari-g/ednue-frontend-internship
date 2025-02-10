@@ -27,8 +27,15 @@ div {
 ## CSS Positioning
 
 ### Types of Positioning:
-1. **Static (Default)**: Normal flow of the document.
-2. **Relative**: Positioned relative to its normal position.
+1. **Static (Default)**: Default position of the element. It will not support left, right, top and bottom alignment for the element.
+    ```css
+   div {
+     position: static;
+     top: 10px;
+     left: 20px;
+   }
+   ```
+3. **Relative**: Positioned relative to its normal position. Setting the top, right, bottom, and left properties of a relatively-positioned element will cause it to be adjusted away from its normal position.
    ```css
    div {
      position: relative;
@@ -36,7 +43,7 @@ div {
      left: 20px;
    }
    ```
-3. **Absolute**: Positioned relative to the nearest positioned ancestor.
+4. **Absolute**: Positioned relative to the nearest positioned ancestor.
    ```css
    div {
      position: absolute;
@@ -44,7 +51,7 @@ div {
      left: 100px;
    }
    ```
-4. **Fixed**: Stays fixed in place (even on scroll).
+5. **Fixed**: Always stays in the same place even if the page is scrolled. The top, right, bottom, and left properties are used to position the element.
    ```css
    div {
      position: fixed;
@@ -52,7 +59,7 @@ div {
      right: 20px;
    }
    ```
-5. **Sticky**: Toggles between `relative` and `fixed` based on scroll position.
+6. **Sticky**: Toggles between `relative` and `fixed` based on scroll position.  It is positioned relative until a given offset position is met in the viewport - then it "sticks" in place
    ```css
    div {
      position: sticky;
