@@ -43,7 +43,7 @@
    ```
 
 2. **Data Types**:  
-   - String, Number, Boolean, Undefined.
+   - String, Number, Boolean.
    ```javascript
    let age = 25;
    let isStudent = true;
