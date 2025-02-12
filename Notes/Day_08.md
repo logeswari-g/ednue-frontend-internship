@@ -3,6 +3,7 @@ Day 8: **Introduction to Error Handling**
 **Try and Catch block**
 
 The try...catch block in JavaScript is used to handle errors gracefully and prevent the script from crashing.
+```
 try {
     // Code that may cause an error
 } catch (error) {
@@ -10,18 +11,21 @@ try {
 } finally {
     // (Optional) Code that will always execute
 }
-
+```
 **1. Basic try and catch handling**
 
+```
 try {
     let x = undefinedVariable; // This will throw an error
     console.log("This will not run if an error occurs.");
 } catch (error) {
     console.log("An error occurred:", error.message);
 }
+```
 
 **2. Handling JSON Parsing Errors**
 
+```
 let jsonString = '{ "name": "John", "age": 30, }'; // Invalid JSON due to extra comma
 
 try {
@@ -30,9 +34,11 @@ try {
 } catch (error) {
     console.log("JSON Parsing Error:", error.message);
 }
+```
 
 **3. Custom Errors with throw**
 
+```
 function checkAge(age) {
     try {
         if (age < 18) {
@@ -47,12 +53,15 @@ function checkAge(age) {
 checkAge(15); // Output: Error: You must be 18 or older.
 checkAge(20); // Output: Access granted!
 
+```
+
 **Promises in JavaScript**
 
 A Promise in JavaScript is an object that represents the eventual completion (or failure) of an asynchronous operation. It is used to handle asynchronous code like API calls, file reading, or database queries, making code cleaner and more manageable.
 
 **Promise Syntax**
 
+```
 let myPromise = new Promise((resolve, reject) => {
     // Asynchronous operation (e.g., fetching data)
     let success = true; // Change to false to simulate failure
@@ -70,6 +79,7 @@ myPromise
     .then(response => console.log(response))  // Handles success
     .catch(error => console.log(error))      // Handles failure
     .finally(() => console.log("Done!"));    // Runs always
+```
 
 **why to use promise?**
 1. Better for Asynchronous Chaining (not wait for another process to complete)
