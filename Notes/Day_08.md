@@ -3,7 +3,6 @@ Day 8: **Introduction to Error Handling**
 **Try and Catch block**
 
 The try...catch block in JavaScript is used to handle errors gracefully and prevent the script from crashing.
-
 try {
     // Code that may cause an error
 } catch (error) {
