@@ -67,7 +67,6 @@ let myPromise = new Promise((resolve, reject) => {
     }, 2000);
 });
 
-// Consuming the promise
 myPromise
     .then(response => console.log(response))  // Handles success
     .catch(error => console.log(error))      // Handles failure
