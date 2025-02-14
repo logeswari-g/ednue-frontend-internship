@@ -41,39 +41,45 @@ In JavaScript, you can select and manipulate elements in the Document Object Mod
 
 1) **`document.getElementById(id)`**  
   Selects an element by its `id` and returns a single element.
+
   ```javascript
   const element = document.getElementById("header");
   ```
 
 2) **`document.getElementsByClassName`**
    Selects elements by class name (.class) and returns multiple elements.
-   ``javascript
+   
+   ```javascript
    const items = document.getElementsByClassName("dom");
-   ``
+   ```
 
 4) **`document.getElementsByTagName()`**
    Selects elements by tag name (<div>, <p>, <li>, etc.) and returns multiple elements.
-   ``javascript
+   
+   ```javascript
    const paragraphs = document.getElementsByTagName("p");
-   ``
+   ```
    
 6) **`document.querySelector(selector)`**  
   Selects the first matching element using a CSS selector (#id, .class, tag) and returns a single element.
+
   ```javascript
   const element = document.querySelector(".className");
   ```
 
 5) **`document.querySelectorAll(selector)`**  
-  Selects all matching elements using a CSS selector and returns multiple elements
+  Selects all matching elements using a CSS selector and returns multiple elements.
+
   ```javascript
   const elements = document.querySelectorAll("p");
   ```
 
 6) **`document.getElementsByName()`**
-   Selects elements by name attribute (name="value") and returns multiple elements
-   ``javascript
+   Selects elements by name attribute (name="value") and returns multiple elements.
+   
+   ```javascript
      const elements = document.getElementsByName("uname");
-   `` 
+   ```
 ---
 
 ### 3. **Manipulating Elements**
