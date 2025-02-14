@@ -39,7 +39,8 @@ Tree Structure:
 
 In JavaScript, you can select and manipulate elements in the Document Object Model (DOM) using various methods.
 
-1) **`document.getElementById(id)`**  
+1) **`document.getElementById(id)`**
+   
   Selects an element by its `id` and returns a single element.
 
   ```javascript
@@ -47,27 +48,31 @@ In JavaScript, you can select and manipulate elements in the Document Object Mod
   ```
 
 2) **`document.getElementsByClassName`**
-   Selects elements by class name (.class) and returns multiple elements.
+   
+   Selects elements by class name and returns multiple elements.
    
    ```javascript
    const items = document.getElementsByClassName("dom");
    ```
 
 4) **`document.getElementsByTagName()`**
-   Selects elements by tag name (<div>, <p>, <li>, etc.) and returns multiple elements.
+   
+   Selects elements by tag name and returns multiple elements.
    
    ```javascript
    const paragraphs = document.getElementsByTagName("p");
    ```
    
-6) **`document.querySelector(selector)`**  
+6) **`document.querySelector(selector)`**
+   
   Selects the first matching element using a CSS selector (#id, .class, tag) and returns a single element.
 
   ```javascript
   const element = document.querySelector(".className");
   ```
 
-5) **`document.querySelectorAll(selector)`**  
+5) **`document.querySelectorAll(selector)`**
+   
   Selects all matching elements using a CSS selector and returns multiple elements.
 
   ```javascript
@@ -75,6 +80,7 @@ In JavaScript, you can select and manipulate elements in the Document Object Mod
   ```
 
 6) **`document.getElementsByName()`**
+   
    Selects elements by name attribute (name="value") and returns multiple elements.
    
    ```javascript
