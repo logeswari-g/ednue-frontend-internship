@@ -39,15 +39,15 @@ Tree Structure:
 
 In JavaScript, you can select and manipulate elements in the Document Object Model (DOM) using various methods.
 
-  1) **`document.getElementById(id)`**
-   
-    Selects an element by its `id` and returns a single element.
+  1) **document.getElementById()**
+
+     Selects an element by its `id` and returns a single element.
 
   ```javascript
   const element = document.getElementById("header");
   ```
 
-  2) **`document.getElementsByClassName`**
+  2) **document.getElementsByClassName**
    
      Selects elements by class name and returns multiple elements.
    
@@ -55,7 +55,7 @@ In JavaScript, you can select and manipulate elements in the Document Object Mod
    const items = document.getElementsByClassName("dom");
    ```
 
-  3) **`document.getElementsByTagName()`**
+  3) **document.getElementsByTagName()**
    
      Selects elements by tag name and returns multiple elements.
    
@@ -63,23 +63,23 @@ In JavaScript, you can select and manipulate elements in the Document Object Mod
    const paragraphs = document.getElementsByTagName("p");
    ```
    
-  4) **`document.querySelector(selector)`**
-   
-    Selects the first matching element using a CSS selector (#id, .class, tag) and returns a single element.
+  4) **document.querySelector()**
+
+     Selects the first matching element using a CSS selector (#id, .class, tag) and returns a single element.
 
   ```javascript
   const element = document.querySelector(".className");
   ```
 
-  5) **`document.querySelectorAll(selector)`**
-   
-    Selects all matching elements using a CSS selector and returns multiple elements.
+  5) **document.querySelectorAll()**
+
+     Selects all matching elements using a CSS selector and returns multiple elements.
 
   ```javascript
   const elements = document.querySelectorAll("p");
   ```
 
-  6) **`document.getElementsByName()`**
+  6) **document.getElementsByName()**
    
      Selects elements by name attribute (name="value") and returns multiple elements.
    
