@@ -44,7 +44,7 @@ Tree Structure:
   ```
 
 - **`document.querySelector(selector)`**  
-  Selects the first element that matches the selector.  
+  Selects the first matching element using a CSS selector (#id, .class, tag).
   ```javascript
   const element = document.querySelector(".className");
   ```
