@@ -10,11 +10,6 @@
 
      ![image](https://github.com/user-attachments/assets/e783d396-6d07-4352-9037-a3342aa3f328)
 
-   - **Common Events:**  
-     - `click`: Triggered when an element is clicked.  
-     - `keyup`: Triggered when a key is released.  
-     - `mouseover`: Triggered when the mouse hovers over an element.  
-
 ---
 
 #### **Event Listeners**   
