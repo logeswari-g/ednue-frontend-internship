@@ -8,15 +8,7 @@
    - **What are Events?**  
      Event handling in JavaScript allows us to execute functions when the user interacts with elements (clicks, hovers, types, etc.).
 
-         Event	Description
-    click	Fires when an element is clicked
-    mouseover	Fires when the mouse is over an element
-    mouseout	Fires when the mouse leaves an element
-    keydown	Fires when a key is pressed
-    keyup	Fires when a key is released
-    submit	Fires when a form is submitted
-    change	Fires when input value changes
-  ![image](https://github.com/user-attachments/assets/e783d396-6d07-4352-9037-a3342aa3f328)
+     ![image](https://github.com/user-attachments/assets/e783d396-6d07-4352-9037-a3342aa3f328)
 
    - **Common Events:**  
      - `click`: Triggered when an element is clicked.  
