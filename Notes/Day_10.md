@@ -6,7 +6,7 @@
 #### **Introduction to Events**  
   
    - **What are Events?**  
-     Events are user interactions with the webpage, such as clicks, typing, or scrolling.  
+     Event handling in JavaScript allows us to execute functions when the user interacts with elements (clicks, hovers, types, etc.).
    - **Common Events:**  
      - `click`: Triggered when an element is clicked.  
      - `keyup`: Triggered when a key is released.  
