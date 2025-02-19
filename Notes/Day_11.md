@@ -13,7 +13,16 @@
    2) **Constructor Function**: This allows you to create a regex dynamically.
 
       ```
-         let regex = new RegExp('pattern');
+      // User input
+      let userInput = "hello";
+      
+      // Create a regex pattern dynamically
+      let pattern = new RegExp(userInput, 'i'); // 'i' flag makes the search case-insensitive
+      
+      // Test the regex
+      let str = "Hello, world!";
+      console.log(pattern.test(str)); // Output: true
+
       ```
 
 **Common Metacharacters**
