@@ -68,10 +68,10 @@
 
 **## Variable Hoisting**
 
+```
 console.log(hoistedVar); // Outputs: undefined
 var hoistedVar = 'This variable is hoisted!';
 
-```
 console.log(nonHoistedLet); // Throws ReferenceError: nonHoistedLet is not defined
 let nonHoistedLet = 'This variable is not hoisted!';
 ```
