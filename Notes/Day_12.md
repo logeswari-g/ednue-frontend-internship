@@ -3,8 +3,7 @@ JSON (JavaScript Object Notation) is a lightweight data interchange format that'
 ### Key Features of JSON
 
 1. **Simplicity**: JSON is easy to read and write, with a straightforward syntax.
-2. **Interoperability**: JSON is language-independent, making it a popular choice for data exchange between systems written in different programming languages.
-3. **Structured Data**: JSON supports nested data structures, including objects and arrays.
+2. **Structured Data**: JSON supports nested data structures, including objects and arrays.
 
 ### JSON Syntax
 
@@ -29,11 +28,6 @@ Here is an example of a JSON object representing a person:
   "hobbies": ["reading", "hiking", "coding"]
 }
 ```
-
-In this example:
-- The **root object** contains key/value pairs for `name`, `age`, `isStudent`, `address`, and `hobbies`.
-- The value for `address` is a **nested object**.
-- The value for `hobbies` is an **array**.
 
 ### Parsing JSON in JavaScript
 
@@ -64,9 +58,3 @@ console.log(jsonString); // Output: '{"name":"John Doe","age":30,"isStudent":fal
 1. **APIs**: JSON is commonly used in APIs to exchange data between clients and servers.
 2. **Configuration Files**: JSON files are used to store configuration settings for various applications.
 3. **Data Storage**: JSON is used in NoSQL databases (like MongoDB) to store and query data.
-
-### Summary
-
-JSON is a versatile and widely-used format for data exchange and storage. Its simplicity and ease of use have made it a standard in web development and beyond.
-
-If you have any more questions or need further examples, feel free to ask!
