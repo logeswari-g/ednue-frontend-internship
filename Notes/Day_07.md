@@ -65,19 +65,6 @@
    }
    greet();
    ```
-
-**## Variable Hoisting**
-
-```
-console.log(hoistedVar); // Outputs: undefined
-var hoistedVar = 'This variable is hoisted!';
-
-console.log(nonHoistedLet); // Throws ReferenceError: nonHoistedLet is not defined
-let nonHoistedLet = 'This variable is not hoisted!';
-```
-
-1) The var declaration for hoistedVar is hoisted to the top, resulting in undefined being logged because only the declaration is hoisted, not the initialization. 
-2) let and const declarations are not hoisted in the same way and will throw a ReferenceError if accessed before declaration.
 ---
 
 ## Hands-On Practice
