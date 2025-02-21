@@ -1,4 +1,4 @@
-**# Bootstrap in JavaScript**
+**Bootstrap in JavaScript**
 
 * Bootstrap is a popular front-end framework that helps developers create responsive and visually appealing web pages with minimal effort.
 * It provides pre-designed CSS styles, JavaScript components, and a grid system to streamline development.
