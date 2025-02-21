@@ -8,6 +8,7 @@
 **1. Include Bootstrap in Your HTML**
 First, you need to include Bootstrap's CSS and JavaScript files in your HTML file. You can do this by using the Bootstrap CDN (Content Delivery Network).
 
+```
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -22,10 +23,12 @@ First, you need to include Bootstrap's CSS and JavaScript files in your HTML fil
 <body>
 </body>
 </html>
+```
 
 **2: Create a Responsive Navigation Bar**
 Now, let's add a responsive navigation bar using Bootstrap's predefined classes.
 
+```
 <body>
   <nav class="navbar navbar-expand-lg navbar-light bg-light">
     <a class="navbar-brand" href="#">Navbar</a>
@@ -50,10 +53,12 @@ Now, let's add a responsive navigation bar using Bootstrap's predefined classes.
     </div>
   </nav>
 </body>
+```
 
 **3: Create a Responsive Grid**
 Bootstrap's grid system allows you to create responsive layouts with ease. Let's create a simple grid with three columns.
 
+```
 <body>
   <div class="container">
     <div class="row">
@@ -63,10 +68,12 @@ Bootstrap's grid system allows you to create responsive layouts with ease. Let's
     </div>
   </div>
 </body>
+```
 
 **4: Add a Button with Different Styles**
 Bootstrap provides various button styles that you can use by applying different classes.
 
+```
 <body>
   <div class="container">
     <button type="button" class="btn btn-primary">Primary Button</button>
@@ -79,3 +86,4 @@ Bootstrap provides various button styles that you can use by applying different 
     <button type="button" class="btn btn-dark">Dark Button</button>
   </div>
 </body>
+```
